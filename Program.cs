@@ -206,7 +206,6 @@ namespace Laba_12
             {
                 MyCollection<Transport> myCollection = new MyCollection<Transport>();
 
-                // Добавление элементов в коллекцию
                 myCollection.Add(new Car("Car", 2001, 180, 4, "Honda", "Sedan"));
                 myCollection.Add(new Aircraft("Aircraft", 2020, 500, 50, "Jet", 333));
                 myCollection.Add(new Train("Train", 2015, 500,88, "Express", "Passenger"));
